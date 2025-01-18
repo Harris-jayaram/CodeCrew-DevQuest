@@ -17,6 +17,50 @@ To set up and run this application, ensure you have the following installed:
 - **Truffle Framework** (for smart contract development)
 - **Git** (for version control)
 - **Ethereum Wallet** (for testing blockchain interactions)
+- 
+
+🆁🅴🆀🆄🅸🆁🅴🅼🅴🅽🆃🆂
+
+1.Install nodeJs
+
+* [Node JS](https://nodejs.org/en/download/)
+
+2.Install Ganache
+
+* [Ganache Truffle](https://www.trufflesuite.com/ganache)
+
+3.Add Metamask Extension in Browser
+
+* [Metamask Chrome](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en-US)
+
+4. open cmd in project directory
+
+```
+npm install --force
+```
+
+5.open cmd/terminal as Administrator and type
+
+```
+npm install -g truffle
+```
+
+6.open Ganache
+ 
+ *  New Workspace
+ *  AddProject
+ *  Select truffle-config.js in Project Directory
+ *  Save Workspace
+
+7.Compile and migrate Contracts
+ ```
+ truffle migrate
+ ```
+8. Run Server
+
+```
+npm start
+```
 
 Additionally, you'll need basic knowledge of blockchain, Ethereum, and smart contract development to configure and deploy the application.
 
